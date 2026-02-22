@@ -1,0 +1,21 @@
+# Regime Terminal — Python Dependencies
+# Install: pip install -r requirements.txt
+
+# Web server
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# HMM engine
+hmmlearn==0.3.3
+scikit-learn==1.6.1
+numpy==1.26.4
+pandas==2.2.3
+
+# MT5 data (Windows only — connects to MetaTrader 5 terminal)
+MetaTrader5>=5.0.45
+
+# Database (Turso)
+libsql-experimental==0.0.68
+
+# Utilities
+pydantic==2.10.4
